@@ -113,7 +113,7 @@
 }
 
 .xbox .face {
-    background: url(xbox-assets/dpad.svgz);
+    background: url(dpadmod.png);
     position: absolute;
     opacity: 0;
 }
