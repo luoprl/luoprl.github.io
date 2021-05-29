@@ -53,6 +53,35 @@
     left: 144px;
 }
 
+.xbox .bumper {
+    width: 170px;
+    height: 61px;
+    background: url(bumpermod.png);
+    opacity: 0;
+}
+
+.xbox .bumpers {
+    position: absolute;
+    width: 536px;
+    height: 61px;
+    left: 107px;
+    top: 129px;
+}
+
+.xbox .bumper.pressed {
+    opacity: 1;
+}
+
+.xbox .bumper.left {
+    float: left;
+}
+
+.xbox .bumper.right {
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
 .xbox .stick {
     position: absolute;
     background: url(stickmod.png);
